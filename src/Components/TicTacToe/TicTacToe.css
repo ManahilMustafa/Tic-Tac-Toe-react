@@ -1,0 +1,58 @@
+.container{
+    text-align: center;
+}
+.title{
+    margin-top: 50px;
+    color: #556b2f;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title span{
+    color: #77ad18;
+    padding-left: 15px;
+}
+.reset {
+    width: 150px; /* Reduced width */
+    height: 50px; /* Reduced height */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px; /* Reduced border-radius for a smoother look */
+    background: #556b2f; /* Olive green background */
+    font-size: 18px; /* Adjusted font size for better proportion */
+    font-weight: bold; /* Added weight to make text stand out */
+    color: #fff; /* White text for better contrast */
+    margin-top: 20px;
+    margin-bottom: 40px;
+    transition: background 0.3s, transform 0.2s; /* Smooth transition effect */
+}
+
+.reset:hover {
+    background: #6b8e23; /* Slightly brighter shade on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+.reset:active {
+    background: #3d5224; /* Darker shade for active state */
+}
+
+.boxes{
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: #556b2f;
+    border: 4px solid #d1e7dd ;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.board{
+    height: 600px;
+    width: 564px;
+    display: flex;
+    margin: auto;
+}
+.boxes img{
+    margin: 50px 50px;
+}
